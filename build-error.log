@@ -1,0 +1,29 @@
+
+> my-project@0.1.0 build E:\v0-resume-analyzer-app-main\v0-resume-analyzer-app-main
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.7s
+  Skipping validation of types
+  Collecting page data using 7 workers ...
+ ELIFECYCLE  Command failed with exit code 1.
+
+Error: Please define the MONGODB_URI environment variable inside .env.local
+    at module evaluation (E:\v0-resume-analyzer-app-main\v0-resume-analyzer-app-main\.next\server\chunks\[root-of-the-server]__a8f1c756._.js:19:23925)
+    at instantiateModule (E:\v0-resume-analyzer-app-main\v0-resume-analyzer-app-main\.next\server\chunks\[turbopack]_runtime.js:740:9)
+    at getOrInstantiateModuleFromParent (E:\v0-resume-analyzer-app-main\v0-resume-analyzer-app-main\.next\server\chunks\[turbopack]_runtime.js:763:12)
+    at Context.esmImport [as i] (E:\v0-resume-analyzer-app-main\v0-resume-analyzer-app-main\.next\server\chunks\[turbopack]_runtime.js:228:20)
+    at module evaluation (E:\v0-resume-analyzer-app-main\v0-resume-analyzer-app-main\.next\server\chunks\[root-of-the-server]__e80d976a._.js:1:1092)
+    at instantiateModule (E:\v0-resume-analyzer-app-main\v0-resume-analyzer-app-main\.next\server\chunks\[turbopack]_runtime.js:740:9)
+    at instantiateRuntimeModule (E:\v0-resume-analyzer-app-main\v0-resume-analyzer-app-main\.next\server\chunks\[turbopack]_runtime.js:768:12)
+    at getOrInstantiateRuntimeModule (E:\v0-resume-analyzer-app-main\v0-resume-analyzer-app-main\.next\server\chunks\[turbopack]_runtime.js:781:12)
+    at Object.m (E:\v0-resume-analyzer-app-main\v0-resume-analyzer-app-main\.next\server\chunks\[turbopack]_runtime.js:790:18)
+    at Object.<anonymous> (E:\v0-resume-analyzer-app-main\v0-resume-analyzer-app-main\.next\server\app\api\login\route.js:7:3)
+
+> Build error occurred
+Error: Failed to collect page data for /api/login
+    at ignore-listed frames {
+  type: 'Error'
+}

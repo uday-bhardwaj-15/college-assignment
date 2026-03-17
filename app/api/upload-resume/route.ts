@@ -6,7 +6,7 @@ import { authenticate } from '@/lib/auth-utils';
 import dbConnect from '@/lib/db';
 import Resume from '@/models/Resume';
 import '@/lib/polyfills';
-import { pdf as pdfParse } from 'pdf-parse';
+const pdfParse = require('pdf-parse');
 import mammoth from 'mammoth';
 
 export async function POST(req: NextRequest) {
